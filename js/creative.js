@@ -44,14 +44,17 @@
     window.location.href = "mailto:user@example.com?subject=Auction List&body=Hey there, I would like to be added to your Auction List.";
   });
 
-  $(window).resize(function () {
+  offsetOrNot();
+  $(window).resize(offsetOrNot);
+
+  function offsetOrNot() {
     if ($(window).width() > 550) {
       $("#flower1").addClass("offset-1");
     }
     else {
       $("#flower1").removeClass("offset-1");
     }
-  });
+  }
 
 
 
