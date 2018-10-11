@@ -101,6 +101,16 @@
     $("#flowerPopup").toggle();
   })
 
+  $('.gallery-slick').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerPadding: true,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+  });
+
 
 
 })(jQuery); // End of use strict

@@ -211,12 +211,6 @@ img {
   }
 }
 
-@media (max-width: 550px) {
-  #mainNav img {
-    margin-left: 35%;
-  }
-}
-
 #mainNav .navbar-toggler {
   margin: .5rem;
 }
@@ -226,6 +220,7 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header2.jpg");
   background-position: center center;
+  height: 200px;
   background-size: cover;
 }
 
@@ -286,7 +281,13 @@ header.masthead .header-title {
 }
 
 #flowers img {
-  width: 100%;
+  width: 80%;
+}
+
+@media (min-width: 767px) {
+  #flowers img {
+    width: 100%;
+  }
 }
 
 /* The Modal (background) */
@@ -352,6 +353,19 @@ header.masthead .header-title {
   .modal-content {
     max-width: 80%;
   }
+}
+
+#gallery .slick-slide {
+  height: 350px;
+  margin: 0 1rem;
+}
+
+#gallery .slick-prev, #gallery .slick-next {
+  display: none !important;
+}
+
+#gallery .gallery-title {
+  margin-bottom: 1.5rem;
 }
 
 .text-primary {
