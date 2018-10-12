@@ -365,6 +365,8 @@ header.masthead .header-title {
 #gallery .slick-slide {
   height: 350px;
   margin: 0 1rem;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 #gallery .slick-prev, #gallery .slick-next {
@@ -377,8 +379,6 @@ header.masthead .header-title {
 
 #gallery .container {
   max-width: unset;
-  cursor: -webkit-grab;
-  cursor: grab;
 }
 
 .text-primary {

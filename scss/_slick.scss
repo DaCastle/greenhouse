@@ -3,6 +3,7 @@
 .slick-slide {
     height: 350px;
     margin: 0 1rem;
+    cursor: grab;
 }
 
 .slick-prev, .slick-next {
@@ -15,7 +16,6 @@
 
 .container {
     max-width: unset;
-    cursor: grab;
 }
 
 
