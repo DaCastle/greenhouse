@@ -80,11 +80,18 @@
   }
 
   @media (max-width: 550px) {
+
+    .logo {
+      height: 40px;
+      width: 135px;
+    }
  
   }
 
   .navbar-toggler {
     margin: .5rem;
   }
+
+
 
 }

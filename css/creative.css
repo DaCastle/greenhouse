@@ -211,6 +211,13 @@ img {
   }
 }
 
+@media (max-width: 550px) {
+  #mainNav .logo {
+    height: 40px;
+    width: 135px;
+  }
+}
+
 #mainNav .navbar-toggler {
   margin: .5rem;
 }
@@ -319,7 +326,7 @@ header.masthead .header-title {
   background-color: #fefefe;
   margin: auto;
   margin-top: 100px;
-  padding: 20px;
+  padding: 5px;
   border: 1px solid #888;
   width: 80%;
 }
@@ -366,6 +373,12 @@ header.masthead .header-title {
 
 #gallery .gallery-title {
   margin-bottom: 1.5rem;
+}
+
+#gallery .container {
+  max-width: unset;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .text-primary {
