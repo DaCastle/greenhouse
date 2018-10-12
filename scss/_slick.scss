@@ -1,7 +1,7 @@
 #gallery {
 
 .slick-slide {
-    height: 350px;
+    height: 400px;
     margin: 0 1rem;
 }
 
@@ -40,6 +40,9 @@
 @media (max-width: 550px) {
     .slick-arrow {
         font-size: 2rem;
+    }
+    .slick-slide {
+        height: 250px;
     }
 }
 

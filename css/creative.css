@@ -372,7 +372,7 @@ header.masthead .header-title {
 }
 
 #gallery .slick-slide {
-  height: 350px;
+  height: 400px;
   margin: 0 1rem;
 }
 
@@ -412,6 +412,9 @@ header.masthead .header-title {
 @media (max-width: 550px) {
   #gallery .slick-arrow {
     font-size: 2rem;
+  }
+  #gallery .slick-slide {
+    height: 250px;
   }
 }
 
