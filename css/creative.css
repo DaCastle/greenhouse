@@ -258,7 +258,7 @@ header.masthead .header-title {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 600px;
+    height: 450px;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -379,6 +379,10 @@ header.masthead .header-title {
 
 #gallery .container {
   max-width: unset;
+}
+
+#contactus a {
+  text-decoration: none;
 }
 
 .text-primary {
