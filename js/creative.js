@@ -108,7 +108,7 @@
     centerMode: true,
     variableWidth: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
   });
 
 
