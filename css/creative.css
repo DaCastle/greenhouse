@@ -283,6 +283,10 @@ header.masthead .header-title {
   max-width: 400px;
 }
 
+#flowers {
+  padding-top: 1rem;
+}
+
 #flowers .container {
   max-width: unset;
 }
@@ -365,12 +369,30 @@ header.masthead .header-title {
 #gallery .slick-slide {
   height: 350px;
   margin: 0 1rem;
-  cursor: -webkit-grab;
-  cursor: grab;
 }
 
-#gallery .slick-prev, #gallery .slick-next {
-  display: none !important;
+#gallery .slick-arrow {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  padding: .3rem;
+  z-index: 2;
+  top: 50%;
+  margin-top: -1.5rem;
+  left: 1rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#gallery .fa-chevron-right {
+  left: unset;
+  right: 1rem;
 }
 
 #gallery .gallery-title {
@@ -379,6 +401,12 @@ header.masthead .header-title {
 
 #gallery .container {
   max-width: unset;
+}
+
+@media (max-width: 550px) {
+  #gallery .slick-arrow {
+    font-size: 2rem;
+  }
 }
 
 #contactus a {

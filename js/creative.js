@@ -108,7 +108,9 @@
     centerMode: true,
     variableWidth: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
+    nextArrow: '<i class="fa fa-chevron-right"></i>',
+    prevArrow: '<i class="fa fa-chevron-left"></i>',
   });
 
 
