@@ -54,7 +54,7 @@
     }
     else {
       $("#flower1").removeClass("offset-1");
-      $("#facebook").attr("href", "fb://DeValksGreenhouseAndGardens")
+      $("#facebook").attr("href", "fb://www.facebook.com/DeValksGreenhouseAndGardens/")
     }
   }
 
