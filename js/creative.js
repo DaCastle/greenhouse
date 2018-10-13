@@ -48,7 +48,7 @@
   $(window).resize(offsetOrNot);
 
   function offsetOrNot() {
-    if ($(window).width() > 550) {
+    if ($(window).width() > 767) {
       $("#flower1").addClass("offset-1");
     }
     else {
