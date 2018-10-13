@@ -50,11 +50,9 @@
   function offsetOrNot() {
     if ($(window).width() > 767) {
       $("#flower1").addClass("offset-1");
-      $("#facebook").attr("href", "https://www.facebook.com/DeValksGreenhouseAndGardens/")
     }
     else {
       $("#flower1").removeClass("offset-1");
-      $("#facebook").attr("href", "fb:DeValksGreenhouseAndGardens/mypage")
     }
   }
 
