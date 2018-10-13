@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
-  background-color: $white;
+  background-color: rgb(33, 88, 21);
   padding: 0;
   @include sans-serif-font;
   @include transition-all;
@@ -24,7 +24,7 @@
        > a.nav-link,
       > a.nav-link:focus {
         text-align: center;
-        color: $gray-900;
+        color: white;
         &:hover {
           color: $primary;
         }
