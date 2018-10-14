@@ -230,7 +230,7 @@ img {
 header.masthead {
   margin-top: 70px;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/header.jpg");
   background-position: center center;
   height: 200px;
   background-size: cover;
@@ -284,12 +284,12 @@ header.masthead .header-title {
   }
 }
 
-.service-box {
-  max-width: 400px;
-}
-
 #flowers {
   padding-top: 1rem;
+}
+
+#flowers p {
+  margin-bottom: 2rem !important;
 }
 
 #flowers .container {
@@ -303,6 +303,9 @@ header.masthead .header-title {
 @media (min-width: 767px) {
   #flowers img {
     width: 100%;
+  }
+  #flowers p {
+    margin-bottom: auto;
   }
 }
 

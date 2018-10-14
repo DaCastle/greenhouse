@@ -2,18 +2,26 @@
 
   padding-top: 1rem;
 
+  p {
+    margin-bottom: 2rem !important;
+  }
+
   .container {
     max-width: unset;
   }
 
   img {
     width: 80%;
-  }
+  } 
 
 
   @media (min-width : 767px) {
     img {
       width: 100%;
+    }
+
+    p {
+      margin-bottom: auto;
     }
   }
 

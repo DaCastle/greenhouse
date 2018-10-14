@@ -48,11 +48,8 @@
   $(window).resize(offsetOrNot);
 
   function offsetOrNot() {
-    if ($(window).width() > 767) {
-      $("#flower1").addClass("offset-1");
-    }
-    else {
-      $("#flower1").removeClass("offset-1");
+    if ($(window).width() <= 767) {
+      $("#annuals").removeClass("offset-1");
     }
   }
 
@@ -60,24 +57,24 @@
 
   var flowerItems = [
     {
-      "type": "flower1",
-      "text": "<h4>item1</h4><h4>item2</h4><h4>item3</h4><h4>item4</h4><h4>item5</h4>"
+      "type": "annuals",
+      "text": "<h4>Accent Plants</h4><h4>Vines</h4><h4>Geraniums</h4><h4>4 Inch Pots</h4><h4>18'01</h4>"
     },
     {
-      "type": "flower2",
-      "text": "<h4>item1</h4><h4>item2</h4><h4>item3</h4><h4>item4</h4><h4>item5</h4>"
+      "type": "hangingBaskets",
+      "text": "<h4>Petunias</h4><h4>Million Bells</h4><h4>Begonias</h4><h4>Hanging Bags</h4><h4>Watering Cans</h4>"
     },
     {
-      "type": "flower3",
-      "text": "<h4>item1</h4><h4>item2</h4><h4>item3</h4><h4>item4</h4><h4>item5</h4>"
+      "type": "pottedArrangements",
+      "text": "<h4>Sunny</h4><h4>Shady</h4><h4>Window Boxes</h4><h4>Succulent Tea Cups</h4><h4>Canners</h4>"
     },
     {
-      "type": "flower4",
-      "text": "<h4>item1</h4><h4>item2</h4><h4>item3</h4><h4>item4</h4><h4>item5</h4>"
+      "type": "vegetables",
+      "text": "<h4>Peppers</h4><h4>Cabbage</h4><h4>Herbs</h4><h4>Broccoli</h4><h4>Seeds</h4>"
     },
     {
-      "type": "flower5",
-      "text": "<h4>item1</h4><h4>item2</h4><h4>item3</h4><h4>item4</h4><h4>item5</h4>"
+      "type": "perennials",
+      "text": "<h4>Hostas</h4><h4>Clematis</h4><h4>Strawberry</h4><h4>Canna Lillies</h4><h4>Day Lillies</h4>"
     }
   ];
 
