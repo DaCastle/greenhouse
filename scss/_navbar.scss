@@ -1,91 +1,84 @@
 // Styling for the navbar
 #mainNav {
-  border-bottom: 1px solid fade-out($gray-900, .9);
-  background-color: rgb(33, 88, 21);
-  padding: 0;
-  @include sans-serif-font;
-  @include transition-all;
-  img {
-    border-radius: unset;
-  }
-  .navbar-brand {
-    font-size: 2rem;
-    color: $primary;
-    @include sans-serif-font;
-    margin-left: 1rem;
-    &:focus,
-    &:hover {
-      color: darken($primary, .1);
-    }
-  }
-  .navbar-nav {
-    > li.nav-item {
-       > a.nav-link,
-      > a.nav-link:focus {
-        text-align: center;
-        color: white;
-        &:hover {
-          color: $primary;
-        }
-        &.active {
-          color: $primary !important;
-          background-color: transparent;
-          &:hover {
-            background-color: transparent;
-          }
-        }
-      }
-    }
-  }
-  @media (min-width: 992px) {
-    border-color: transparent;
+    border-bottom: 1px solid fade-out($gray-900, .9);
     background-color: rgb(33, 88, 21);
+    padding: 0;
+    @include sans-serif-font;
+    @include transition-all;
+    img {
+        border-radius: unset;
+    }
     .navbar-brand {
-      color: $white;
-      &:focus,
-      &:hover {
-        color: fade-out($white, .3);
-      }
-    }
-    .navbar-nav > li.nav-item > a.nav-link {
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-    }
-    .navbar-nav > li.nav-item > a.nav-link,
-    .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: white;
-      &:hover {
-        color: fade-out($primary, .5);
-      }
-    }
-    &.navbar-shrink {
-      border-bottom: 1px solid fade-out($gray-900, .9);
-      background-color: rgb(33, 88, 21);
-      .navbar-brand {
+        font-size: 2rem;
         color: $primary;
+        @include sans-serif-font;
+        margin-left: 1rem;
         &:focus,
         &:hover {
-          color: lighten($primary, .1);
+            color: darken($primary, .1);
         }
-      }
-      .navbar-nav > li.nav-item > a.nav-link,
-      .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: white;
-        &:hover {
-          color: $primary;
-        }
-      }
     }
-  }
-
-  @media (max-width: 767px) {
- 
-  }
-
-  .navbar-toggler {
-    margin: .5rem;
-  }
-
-
-
+    .navbar-nav {
+        >li.nav-item {
+            >a.nav-link,
+            >a.nav-link:focus {
+                text-align: center;
+                color: white;
+                &:hover {
+                    color: $primary;
+                }
+                &.active {
+                    color: $primary !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        border-color: transparent;
+        background-color: rgb(33, 88, 21);
+        .navbar-brand {
+            color: $white;
+            &:focus,
+            &:hover {
+                color: fade-out($white, .3);
+            }
+        }
+        .navbar-nav>li.nav-item>a.nav-link {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+        .navbar-nav>li.nav-item>a.nav-link,
+        .navbar-nav>li.nav-item>a.nav-link:focus {
+            color: white;
+            &:hover {
+                color: fade-out($primary, .5);
+            }
+        }
+        &.navbar-shrink {
+            border-bottom: 1px solid fade-out($gray-900, .9);
+            background-color: rgb(33, 88, 21);
+            .navbar-brand {
+                color: $primary;
+                &:focus,
+                &:hover {
+                    color: lighten($primary, .1);
+                }
+            }
+            .navbar-nav>li.nav-item>a.nav-link,
+            .navbar-nav>li.nav-item>a.nav-link:focus {
+                color: white;
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {}
+    .navbar-toggler {
+        margin: .5rem;
+    }
 }

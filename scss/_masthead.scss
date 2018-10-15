@@ -1,51 +1,47 @@
 // Styling for the masthead
 header.masthead {
-  margin-top: 62px;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
-  background-position: center center;
-  @include background-cover;
-  hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  p {
-    font-weight: 300;
-  }
-  .header-title {
-    background-color: rgba($color: #000000, $alpha: .3);
-    font-weight: 100;
-    opacity: .8;
-  }
-  @media (min-width: 550px) {
     margin-top: 62px;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url('../img/header.jpg');
+    background-position: center center;
+    @include background-cover;
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
     p {
-      font-size: 1.15rem;
+        font-weight: 300;
     }
-  }
-  @media (min-width: 992px) {
-    height: 450px;
-    padding-top: 0;
-    padding-bottom: 0;
-    h1 {
-      font-size: 3rem;
+    .header-title {
+        background-color: rgba($color: #000000, $alpha: .3);
+        font-weight: 100;
+        opacity: .8;
     }
-  }
-  @media (min-width: 1200px) {
-    h1 {
-      font-size: 4rem;
+    @media (min-width: 550px) {
+        margin-top: 62px;
+        p {
+            font-size: 1.15rem;
+        }
     }
-  }
-
-  @media (max-width: 550px) {
-
-    h1 {
-      display: none;
+    @media (min-width: 992px) {
+        height: 450px;
+        padding-top: 0;
+        padding-bottom: 0;
+        h1 {
+            font-size: 3rem;
+        }
     }
-
-  }
-  
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 4rem;
+        }
+    }
+    @media (max-width: 550px) {
+        h1 {
+            display: none;
+        }
+    }
 }
