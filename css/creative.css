@@ -169,6 +169,9 @@ img {
     border-color: transparent;
     background-color: #215815;
   }
+  #mainNav img {
+    height: 60px;
+  }
   #mainNav .navbar-brand {
     color: #fff;
   }

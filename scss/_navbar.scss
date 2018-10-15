@@ -39,6 +39,9 @@
         }
     }
     @media (min-width: 767px) {
+        img {
+            height: 60px;
+        }
         border-color: transparent;
         background-color: rgb(33, 88, 21);
         .navbar-brand {
