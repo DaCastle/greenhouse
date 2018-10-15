@@ -432,13 +432,17 @@ header.masthead .header-title {
   height: 100%;
 }
 
+#aboutus .img-container {
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 767px) {
   #aboutus img {
     height: 400px;
     width: auto;
   }
   #aboutus .img-container {
-    text-align: center;
+    text-align: right;
   }
 }
 
