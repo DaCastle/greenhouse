@@ -301,12 +301,25 @@ header.masthead .header-title {
 }
 
 #flowers img {
-  width: 80%;
+  width: auto;
+  max-height: 300px;
 }
 
 @media (min-width: 767px) {
   #flowers img {
-    width: 100%;
+    height: 295.275px;
+  }
+  #flowers p {
+    margin-bottom: auto;
+  }
+  #flowers h3 {
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  #flowers img {
+    height: 380.3px;
   }
   #flowers p {
     margin-bottom: auto;
