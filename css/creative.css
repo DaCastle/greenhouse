@@ -380,10 +380,6 @@ header.masthead .header-title {
   }
 }
 
-#gallery {
-  display: none;
-}
-
 #gallery .slick-slide {
   height: 400px;
   margin: 0 1rem;
