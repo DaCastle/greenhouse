@@ -1,10 +1,9 @@
 // Styling for the masthead
 header.masthead {
-  margin-top: 59px;
+  margin-top: 62px;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/header.jpg');
   background-position: center center;
-  height: 200px;
   @include background-cover;
   hr {
     margin-top: 30px;
@@ -22,7 +21,7 @@ header.masthead {
     opacity: .8;
   }
   @media (min-width: 550px) {
-    margin-top: 70px;
+    margin-top: 62px;
     p {
       font-size: 1.15rem;
     }

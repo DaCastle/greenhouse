@@ -6,8 +6,6 @@
   @include sans-serif-font;
   @include transition-all;
   img {
-    height: 60px;
-    width: 200px;
     border-radius: unset;
   }
   .navbar-brand {
@@ -83,8 +81,6 @@
   @media (max-width: 767px) {
 
     .logo {
-      height: 44px;
-      width: 155px;
     }
  
   }

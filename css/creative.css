@@ -136,8 +136,6 @@ img {
 }
 
 #mainNav img {
-  height: 60px;
-  width: 200px;
   border-radius: unset;
 }
 
@@ -217,23 +215,15 @@ img {
   }
 }
 
-@media (max-width: 767px) {
-  #mainNav .logo {
-    height: 44px;
-    width: 155px;
-  }
-}
-
 #mainNav .navbar-toggler {
   margin: .5rem;
 }
 
 header.masthead {
-  margin-top: 59px;
+  margin-top: 62px;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
-  height: 200px;
   background-size: cover;
 }
 
@@ -258,7 +248,7 @@ header.masthead .header-title {
 
 @media (min-width: 550px) {
   header.masthead {
-    margin-top: 70px;
+    margin-top: 62px;
   }
   header.masthead p {
     font-size: 1.15rem;
