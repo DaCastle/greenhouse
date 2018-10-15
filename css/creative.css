@@ -138,6 +138,7 @@ img {
 #mainNav img {
   height: 60px;
   width: 200px;
+  border-radius: unset;
 }
 
 #mainNav .navbar-brand {
@@ -218,8 +219,8 @@ img {
 
 @media (max-width: 767px) {
   #mainNav .logo {
-    height: 40px;
-    width: 135px;
+    height: 44px;
+    width: 155px;
   }
 }
 
@@ -228,7 +229,7 @@ img {
 }
 
 header.masthead {
-  margin-top: 70px;
+  margin-top: 59px;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
@@ -255,7 +256,10 @@ header.masthead .header-title {
   opacity: .8;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
+  header.masthead {
+    margin-top: 70px;
+  }
   header.masthead p {
     font-size: 1.15rem;
   }
