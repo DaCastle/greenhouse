@@ -54,6 +54,8 @@
   }
 
 
+  $("#gallery").toggle();
+
 
   var flowerItems = [
     {
