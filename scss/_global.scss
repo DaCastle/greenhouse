@@ -91,14 +91,6 @@ img {
   border-radius: 5px;
 }
 
-.clickable {
-  cursor: pointer;
-  border-radius: 10px;
-  &:hover {
-    background-color: rgba($color: purple, $alpha: .1);
-  }
-}
-
 @media (min-width: 768px) {
   .location-title {
     margin-top: 5rem;

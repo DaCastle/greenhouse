@@ -104,15 +104,6 @@ img {
   border-radius: 5px;
 }
 
-.clickable {
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.clickable:hover {
-  background-color: rgba(128, 0, 128, 0.1);
-}
-
 @media (min-width: 768px) {
   .location-title {
     margin-top: 5rem;
@@ -293,6 +284,17 @@ header.masthead .header-title {
 #flowers img {
   width: auto;
   max-height: 300px;
+}
+
+#flowers .clickable {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flowers .clickable:hover {
+  background-color: rgba(128, 0, 128, 0.1);
 }
 
 @media (min-width: 767px) {

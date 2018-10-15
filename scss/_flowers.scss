@@ -13,7 +13,17 @@
   img {
     width: auto;
     max-height: 300px;
-  } 
+  }
+
+  .clickable {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+      background-color: rgba($color: purple, $alpha: .1);
+    }
+  }
 
 
   @media (min-width : 767px) {
