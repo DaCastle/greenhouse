@@ -428,6 +428,20 @@ header.masthead .header-title {
   text-decoration: none;
 }
 
+#aboutus img {
+  height: 100%;
+}
+
+@media (min-width: 767px) {
+  #aboutus img {
+    height: 400px;
+    width: auto;
+  }
+  #aboutus .img-container {
+    text-align: center;
+  }
+}
+
 .text-primary {
   color: #9ac990 !important;
 }
