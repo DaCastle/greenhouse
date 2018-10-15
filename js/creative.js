@@ -53,8 +53,9 @@
     }
   }
 
-
-  $("#gallery").toggle();
+  setTimeout(function () {
+    $("#gallery").toggle();
+  }, 5000);
 
 
   var flowerItems = [
