@@ -287,7 +287,7 @@ header.masthead .header-title {
 
 #flowers img {
   width: auto;
-  max-height: 300px;
+  height: 300px;
 }
 
 #flowers .clickable {
@@ -303,7 +303,7 @@ header.masthead .header-title {
 
 @media (min-width: 767px) {
   #flowers img {
-    height: auto;
+    height: 235px;
   }
   #flowers p {
     margin-bottom: auto;
@@ -314,6 +314,9 @@ header.masthead .header-title {
 }
 
 @media (min-width: 1600px) {
+  #flowers img {
+    height: auto;
+  }
   #flowers p {
     margin-bottom: auto;
   }

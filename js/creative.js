@@ -44,15 +44,6 @@
     window.location.href = "mailto:user@example.com?subject=Auction List&body=Hey there, I would like to be added to your Auction List.";
   });
 
-  offsetOrNot();
-  $(window).resize(offsetOrNot);
-
-  function offsetOrNot() {
-    if ($(window).width() <= 767) {
-      $("#annuals").removeClass("offset-1");
-    }
-  }
-
 
   var flowerItems = [
     {
@@ -72,8 +63,13 @@
       "text": "<h4>Peppers</h4><h4>Cabbage</h4><h4>Herbs</h4><h4>Broccoli</h4><h4>Seeds</h4>"
     },
     {
-      "type": "perennials",
+      "type": "succulents",
       "text": "<h4>Hostas</h4><h4>Clematis</h4><h4>Strawberry</h4><h4>Canna Lillies</h4><h4>Day Lillies</h4>"
+    }
+    ,
+    {
+      "type": "perennials",
+      "text": "<h4>Unique Arrangements</h4><h4>Tea Cups</h4><h4>Individually Sold</h4>"
     }
   ];
 
