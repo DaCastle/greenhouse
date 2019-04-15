@@ -213,6 +213,7 @@ img {
 
 #mainNav .navbar-toggler {
   margin: .5rem;
+  border: 3px solid purple;
 }
 
 header.masthead {
