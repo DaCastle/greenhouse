@@ -63,13 +63,13 @@
       "text": "<h4>Tomatoes</h4><h4>Cabbage</h4><h4>Broccoli</h4><h4>Peppers</h4><h4>Kohlrabi</h4><h4>Herbs</h4><h4>and more!</h4>"
     },
     {
-      "type": "succulents",
+      "type": "perennials",
       "text": "<h4>Hostas</h4><h4>Clematis</h4><h4>Strawberry</h4><h4>Canna Lillies</h4><h4>Day Lillies</h4>"
     }
     ,
     {
-      "type": "perennials",
-      "text": "<h4>List of varities to come!</h4>"
+      "type": "succulents",
+      "text": "<h4>Variety of kinds</h4><h4>Tea cups</h4><h4>Unique containers</h4>"
     }
   ];
 
