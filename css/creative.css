@@ -185,7 +185,7 @@ img {
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: white;
-    font-size: .8rem;
+    font-size: 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -388,13 +388,12 @@ header.masthead .header-title {
 }
 
 #gallery .slick-slide {
-  height: 400px;
   margin: 0 1rem;
 }
 
 #gallery .slick-arrow {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: black !important;
   color: white;
   font-size: 3rem;
   position: absolute;
@@ -446,8 +445,12 @@ header.masthead .header-title {
   margin-bottom: 1rem;
 }
 
-#aboutus .text {
+#aboutus .top-margin {
   margin-top: 2em;
+}
+
+#aboutus .larger-text {
+  font-size: 1.2em;
 }
 
 @media (min-width: 767px) {
