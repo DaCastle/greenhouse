@@ -298,17 +298,21 @@ header.masthead .header-title {
   background-color: rgba(128, 0, 128, 0.1);
 }
 
+#flowers .scale-text {
+  font-size: 7vw;
+}
+
 @media (min-width: 767px) {
   #flowers h1 {
     margin: 1rem auto;
   }
   #flowers .scale-text {
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 600;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #flowers .scale-text {
     font-size: 2vw;
   }
