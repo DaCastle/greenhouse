@@ -64,7 +64,7 @@
     },
     {
       "type": "perennials",
-      "text": "<h4>Hostas</h4><h4>Clematis</h4><h4>Strawberry</h4><h4>Canna Lillies</h4><h4>Day Lillies</h4>"
+      "text": "<h4>List of varities to come!</h4>"
     }
     ,
     {
