@@ -252,7 +252,7 @@ header.masthead .header-title {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   header.masthead {
     height: 450px;
     padding-top: 0;
