@@ -48,7 +48,7 @@
   var flowerItems = [
     {
       "type": "annuals",
-      "text": "<h4>Accent Plants</h4><h4>Vines</h4><h4>Grasses</h4><h4>Geraniums</h4><h4>Petunias</h4><h4>Coleus</h4><h4>Sunpatiens</h4><h4>4-pac bedding plants</h4><h4>And more!</h4>"
+      "text": "<h4>Accent Plants</h4><h4>Vines</h4><h4>Grasses</h4><h4>Geraniums</h4><h4>Petunias</h4><h4>Coleus</h4><h4>Sunpatiens</h4><h4>4-pack bedding plants</h4><h4>And more!</h4>"
     },
     {
       "type": "hangingBaskets",
@@ -56,11 +56,11 @@
     },
     {
       "type": "pottedArrangements",
-      "text": "<h4>Sunny</h4><h4>Shady</h4><h4>Window Boxes</h4><h4>Canners</h4><h4>Watering Cans</h4><h4>Wicker baskets</h4><h4>Wooden Boxes</h4><h4>Chairs</h4><h4>Large, medium, small pots</h4><h4>Garden Dishes</h4><h4>Unique containers</h4>"
+      "text": "<h4>Sunny</h4><h4>Shady</h4><h4>Window Boxes</h4><h4>Canners</h4><h4>Watering Cans</h4><h4>Wicker Baskets</h4><h4>Wooden Boxes</h4><h4>Chairs</h4><h4>Large, Medium, Small Pots</h4><h4>Garden Dishes</h4><h4>Unique Containers</h4>"
     },
     {
       "type": "vegetables",
-      "text": "<h4>Tomatoes</h4><h4>Cabbage</h4><h4>Broccoli</h4><h4>Peppers</h4><h4>Kohlrabi</h4><h4>Herbs</h4><h4>and more!</h4>"
+      "text": "<h4>Tomatoes</h4><h4>Cabbage</h4><h4>Broccoli</h4><h4>Peppers</h4><h4>Kohlrabi</h4><h4>Herbs</h4><h4>And more!</h4>"
     },
     {
       "type": "perennials",
@@ -69,7 +69,7 @@
     ,
     {
       "type": "succulents",
-      "text": "<h4>Variety of kinds</h4><h4>Tea cups</h4><h4>Unique containers</h4>"
+      "text": "<h4>Variety of Succulents</h4><h4>Tea Cups</h4><h4>Unique Containers</h4>"
     }
   ];
 
