@@ -446,6 +446,10 @@ header.masthead .header-title {
   margin-bottom: 1rem;
 }
 
+#aboutus .text {
+  margin-top: 2em;
+}
+
 @media (min-width: 767px) {
   #aboutus img {
     height: 400px;
