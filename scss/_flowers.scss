@@ -6,10 +6,6 @@
     .container {
         max-width: unset;
     }
-    img {
-        width: auto;
-        height: 300px;
-    }
     .clickable {
         cursor: pointer;
         border-radius: 10px;
@@ -20,14 +16,17 @@
         }
     }
     @media (min-width: 767px) {
-        img {
-            height: 235px;
-        }
-        p {
-            margin-bottom: auto;
-        }
         h1 {
             margin: 1rem auto;
+        }
+        .scale-text {
+            font-size: 2vw;
+            font-weight: 600;
+        }
+    }
+    @media (min-width: 992px) {
+        .scale-text {
+            font-size: 2vw;
         }
     }
     @media (min-width: 1600px) {

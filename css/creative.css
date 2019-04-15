@@ -213,7 +213,7 @@ img {
 
 #mainNav .navbar-toggler {
   margin: .5rem;
-  border: 3px solid purple;
+  border: 3px solid #D2EEFB;
 }
 
 header.masthead {
@@ -287,11 +287,6 @@ header.masthead .header-title {
   max-width: unset;
 }
 
-#flowers img {
-  width: auto;
-  height: 300px;
-}
-
 #flowers .clickable {
   cursor: pointer;
   border-radius: 10px;
@@ -304,14 +299,18 @@ header.masthead .header-title {
 }
 
 @media (min-width: 767px) {
-  #flowers img {
-    height: 235px;
-  }
-  #flowers p {
-    margin-bottom: auto;
-  }
   #flowers h1 {
     margin: 1rem auto;
+  }
+  #flowers .scale-text {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 992px) {
+  #flowers .scale-text {
+    font-size: 2vw;
   }
 }
 
@@ -450,10 +449,6 @@ header.masthead .header-title {
   text-decoration: none;
 }
 
-#aboutus img {
-  height: 100%;
-}
-
 #aboutus .img-container {
   margin-bottom: 1rem;
 }
@@ -466,7 +461,7 @@ header.masthead .header-title {
   font-size: 1.2em;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
   #aboutus img {
     height: 400px;
     width: auto;

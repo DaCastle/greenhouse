@@ -1,7 +1,4 @@
 #aboutus {
-    img {
-        height: 100%;
-    }
     .img-container {
         margin-bottom: 1rem;
     }
@@ -11,7 +8,7 @@
     .larger-text {
         font-size: 1.2em;
     }
-    @media (min-width: 767px) {
+    @media (min-width: 992px) {
         img {
             height: 400px;
             width: auto;
