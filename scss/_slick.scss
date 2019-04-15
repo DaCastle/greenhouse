@@ -1,4 +1,14 @@
 #gallery {
+    .gallery-slick.slick-initialized {
+        visibility: visible;
+        opacity: 1;
+    }
+    .gallery-slick {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease;
+        -webkit-transition: opacity 1s ease;
+    }
     .slick-slide {
         margin: 0 1rem;
     }

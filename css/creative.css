@@ -387,6 +387,18 @@ header.masthead .header-title {
   }
 }
 
+#gallery .gallery-slick.slick-initialized {
+  visibility: visible;
+  opacity: 1;
+}
+
+#gallery .gallery-slick {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+}
+
 #gallery .slick-slide {
   margin: 0 1rem;
 }
