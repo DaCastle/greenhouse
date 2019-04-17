@@ -302,7 +302,7 @@ header.masthead .header-title {
   font-size: 7vw;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 576px) {
   #flowers h1 {
     margin: 1rem auto;
   }
