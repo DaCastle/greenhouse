@@ -45,8 +45,7 @@
   });
 
 
-  var flowerItems = [
-    {
+  var flowerItems = [{
       "type": "annuals",
       "text": "<h4>Accent Plants</h4><h4>Vines</h4><h4>Grasses</h4><h4>Geraniums</h4><h4>Petunias</h4><h4>Coleus</h4><h4>Sunpatiens</h4><h4>4-pack bedding plants</h4><h4>And more!</h4>"
     },
@@ -65,8 +64,7 @@
     {
       "type": "perennials",
       "text": "<h4>List of varities to come!</h4>"
-    }
-    ,
+    },
     {
       "type": "succulents",
       "text": "<h4>Variety of Succulents</h4><h4>Tea Cups</h4><h4>Unique Containers</h4>"
