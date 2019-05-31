@@ -216,67 +216,16 @@ img {
   border: 3px solid #D2EEFB;
 }
 
-header.masthead {
-  margin-top: 62px;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
-  background-position: center center;
-  background-size: cover;
+#header {
+  padding-bottom: 2rem;
 }
 
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-header.masthead h1 {
-  font-size: 2rem;
-}
-
-header.masthead p {
-  font-weight: 300;
-}
-
-header.masthead .header-title {
-  background-color: rgba(0, 0, 0, 0.3);
-  font-weight: 100;
-  opacity: .8;
-}
-
-@media (min-width: 550px) {
-  header.masthead {
-    margin-top: 62px;
-  }
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 767px) {
-  header.masthead {
-    height: 450px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 550px) {
-  header.masthead h1 {
-    display: none;
-  }
+#header img {
+  width: 100%;
 }
 
 #flowers {
-  padding-top: 1rem;
+  padding-top: 0;
 }
 
 #flowers p {
