@@ -59,6 +59,14 @@ section {
   padding: 3rem 0;
 }
 
+#covid {
+  background-color: rgba(128, 0, 128, 0.1);
+}
+
+#covid hr {
+  border-color: black;
+}
+
 .maps-btn {
   margin-bottom: 1rem;
 }

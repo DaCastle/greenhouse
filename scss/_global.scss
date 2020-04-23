@@ -24,7 +24,7 @@ a {
     @include transition-all;
 
     &:hover {
-        color: darken($primary, .1);
+        color: darken($primary, 0.1);
     }
 }
 
@@ -46,11 +46,19 @@ h6 {
 }
 
 .text-faded {
-    color: fade-out($white, .3);
+    color: fade-out($white, 0.3);
 }
 
 section {
     padding: 3rem 0;
+}
+
+#covid {
+    background-color: rgba($color: purple, $alpha: 0.1);
+
+    hr {
+        border-color: black;
+    }
 }
 
 .maps-btn {
