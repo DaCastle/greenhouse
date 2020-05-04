@@ -67,11 +67,6 @@ section {
   border-color: black;
 }
 
-.gallery-slick img {
-  height: 400px;
-  width: auto !important;
-}
-
 .maps-btn {
   margin-bottom: 1rem;
 }
@@ -117,12 +112,23 @@ img {
   border-radius: 5px;
 }
 
+@media (max-width: 767px) {
+  .gallery-slick img {
+    height: auto;
+    max-width: 350px;
+  }
+}
+
 @media (min-width: 768px) {
   .location-title {
     margin-top: 5rem;
   }
   .storage-tips img {
     height: 385px;
+  }
+  .gallery-slick img {
+    height: 400px;
+    width: auto !important;
   }
 }
 
