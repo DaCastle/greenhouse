@@ -67,6 +67,15 @@ section {
   border-color: black;
 }
 
+.gallery-slick img {
+  height: 250px;
+  width: auto !important;
+}
+
+.slick-slider {
+  max-height: 350px;
+}
+
 .maps-btn {
   margin-bottom: 1rem;
 }
@@ -112,13 +121,6 @@ img {
   border-radius: 5px;
 }
 
-@media (max-width: 767px) {
-  .gallery-slick img {
-    height: auto;
-    max-width: 350px;
-  }
-}
-
 @media (min-width: 768px) {
   .location-title {
     margin-top: 5rem;
@@ -126,9 +128,12 @@ img {
   .storage-tips img {
     height: 385px;
   }
+  .slick-slider {
+    height: unset;
+    max-height: unset;
+  }
   .gallery-slick img {
     height: 400px;
-    width: auto !important;
   }
 }
 
@@ -266,6 +271,16 @@ img {
   background-color: rgba(128, 0, 128, 0.1);
 }
 
+#flowers .clickable h1 {
+  margin-top: 2vw;
+  background-color: rgba(128, 0, 128, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
 #flowers .scale-text {
   font-size: 7vw;
 }
@@ -277,6 +292,9 @@ img {
   #flowers .scale-text {
     font-size: 3vw;
     font-weight: 600;
+  }
+  #flowers .clickable h1 {
+    margin-top: 1vw;
   }
 }
 

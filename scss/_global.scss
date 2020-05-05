@@ -62,8 +62,12 @@ section {
 }
 
 .gallery-slick img {
-    height: 400px;
+    height: 250px;
     width: auto !important;
+}
+
+.slick-slider {
+    max-height: 350px;
 }
 
 .maps-btn {
@@ -115,6 +119,14 @@ img {
         img {
             height: 385px;
         }
+    }
+
+    .slick-slider {
+        height: unset;
+        max-height: unset;
+    }
+    .gallery-slick img {
+        height: 400px;
     }
 }
 
