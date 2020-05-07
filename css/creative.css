@@ -397,11 +397,11 @@ img {
 
 #gallery .slick-arrow {
   cursor: pointer;
-  background-color: black !important;
+  background-color: rgba(128, 0, 128, 0.4) !important;
   color: white;
   font-size: 3rem;
   position: absolute;
-  padding: .3rem;
+  padding: 0.3rem;
   z-index: 2;
   border-radius: 20px;
   top: 50%;

@@ -17,11 +17,11 @@
 
     .slick-arrow {
         cursor: pointer;
-        background-color: rgba($color: #000000, $alpha: 1) !important;
+        background-color: rgba($color: purple, $alpha: 0.4) !important;
         color: white;
         font-size: 3rem;
         position: absolute;
-        padding: .3rem;
+        padding: 0.3rem;
         z-index: 2;
         border-radius: 20px;
         top: 50%;
@@ -37,7 +37,6 @@
     .fa-chevron-right {
         left: unset;
         right: 1rem;
-        ;
     }
 
     .gallery-title {
