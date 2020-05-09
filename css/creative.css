@@ -443,6 +443,7 @@ img {
 
 #aboutus .img-container {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 #aboutus .top-margin {
@@ -453,13 +454,26 @@ img {
   font-size: 1.2em;
 }
 
-@media (min-width: 992px) {
+#aboutus img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 767px) {
+  #aboutus img {
+    height: 219px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
   #aboutus img {
     height: 400px;
     width: auto;
   }
   #aboutus .img-container {
-    text-align: right;
+    text-align: center;
   }
 }
 
