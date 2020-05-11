@@ -1,7 +1,6 @@
 #aboutus {
     .img-container {
         margin-bottom: 1rem;
-        text-align: center;
     }
 
     .top-margin {
@@ -12,27 +11,14 @@
         font-size: 1.2em;
     }
 
-    img {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-    }
-
-    @media (min-width: 767px) {
-        img {
-            height: 219px;
-            width: auto;
-        }
-    }
-
-    @media (min-width: 1200px) {
+    @media (min-width: 992px) {
         img {
             height: 400px;
             width: auto;
         }
 
         .img-container {
-            text-align: center;
+            text-align: right;
         }
     }
 }
